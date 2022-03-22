@@ -11,10 +11,10 @@ exports.noregis = (pushname) =>{
 	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
 	}
 exports.regis = () =>{
-	return` Lu udah daftar goblok 🖕`
+	return` Lu Udh Daftar Dri 5 Abad Yg Lalu Banh`
 	}
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
-	return` *PENDAFTARAN BERHASIL*
+	return` *DONE*
 
 • Nama : ${pushname}
 • Nomor : ${sender.split("@")[0]}
@@ -26,10 +26,10 @@ fitur bot.
 `
 	}
 exports.owner = (botname) =>{
-	return` 🙅‍♀️ Command khusus owner ${botname}`
+	return` Gabisa Pake Lu Broh, Cuma Own Yg bisa ${botname}`
 	}
 exports.admin = (groupName) =>{
-	return`🙅‍♀️ Command khusus admin ${groupName}`
+	return`Lu Admin? 😱 ${groupName}`
 	}
 exports.adminB = () =>{
 	return`⚠️ Bot bukan admin grup`
@@ -42,24 +42,24 @@ exports.group = () =>{
 	}
 
 exports.wait = () =>{
-	return`⏳ Sedang di proses ~`
+	return`Wet Banh......  ~`
 	}
 exports.ok = () =>{
-	return` ✅ Oke done ~`
+	return` Done Banh √ ~`
 	}
 exports.welcome = () =>{
 	return`
-Welcome semoga gak betah terus out yah !`
+Welcome, Klo Niat Join Gosah Out`
       }
 exports.leave = () =>{
 	return`
-Beban group keluar, Bye cuih`
+Ga Niat Join Ashu`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
 
 ╭─⬣ 
-├ (📌) *List Menu Elaina-Bot*
+├ (📌) *List Menu X1Bot*
 │ • ${prefix}menu
 │ • ${prefix}help
 │
@@ -544,6 +544,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • Riy-Uhuy
 │ • Faiz
 │ • Lexxy
+│ • My Owner
 ╰─⬣
 `
 }
@@ -552,9 +553,9 @@ exports.sewabot = (prefix, salam, pushname) =>{
 
 ╭─⬣
 ├ *Price List*
-│ • Sewa 5k/minggu
-│ • Sewa 10k/bln
-│ • Sewa Permanen 25k
+│ • Sewa 4k/minggu
+│ • Sewa 8k/bln
+│ • Sewa Permanen 15k
 │
 ├ *Price List*
 │ • Jadi Bot 30k/bln
@@ -563,9 +564,9 @@ exports.sewabot = (prefix, salam, pushname) =>{
 │
 ├ *Minat? Chat*
 │• Sering² Donasi
-│• wa.me/6281575886399
-│• Instagram : @riychh
-│• YouTube : RIYCH OFC
+│• wa.me/6289667644225
+│• Instagram : Gada:v
+│• YouTube : DnXOfficial
 ╰─⬣
 `
 }
